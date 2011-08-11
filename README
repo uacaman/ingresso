@@ -1,4 +1,4 @@
-Instalação
+﻿Instalação
 
 Recuperar os fontes repositorio GIT no endereço https://github.com/uacaman/ingresso
 
@@ -15,7 +15,6 @@ Procurar o nó:
 e substiruir o endereço http://ingresso/app2/ pelo endereço onde está rodando a aplicação app2. É necessário colocar a contra barra(/) no final do endereço.
 
 O armazenamento dos dados e feito em um banco de dados SQlite que é criado caso ainda não exista no primeiro acesso, devido a simplicidade do que foi solicitado não é usado nenhum framework de mapeamento entidade relacional e sim apenas uma classe DAO.
-Ambos os aplicativos foram testados nos navegadores Firefox 5, Chrome 13 e Internet Explorer 9 e estão de acordo com as recomendações do WC3.
 
+Ambos os aplicativos foram testados nos navegadores Firefox 5, Chrome 13 e Internet Explorer 9 e estão de acordo com as recomendações do WC3.
 O acesso aos aplicativos deve ser feito pelas url: http://ingresso/app1 e http://ingresso/app2 substituindo os endereços do servidor pelo endereço local.
-  

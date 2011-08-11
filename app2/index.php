@@ -23,9 +23,9 @@ if ( XMODE == 1 ) {
 	$data			= $base . '/protected/Data';
 	
 	if(!is_writable($assets))
-		die("É necessário permissão para pasta $assets");
+		die("É necessário permissão de escrita para pasta $assets");
 	if(!is_writable($runtime))
-		die("É necessário permissão para pasta $runtime");
+		die("É necessário permissão de escrita para pasta $runtime");
 	
 	if(!extension_loaded("pdo_sqlite"))
 		die("Módulo SQLite não instalado.");
