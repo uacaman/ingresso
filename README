@@ -1,19 +1,19 @@
-InstalaÁ„o
-Recuperar os fontes repositorio GIT no endereÁo https://github.com/uacaman/ingresso
+ÔªøInstala√ß√£o
+Recuperar os fontes repositorio GIT no endere√ßo https://github.com/uacaman/ingresso
 
 Ambos os aplicativos foram construidos para rodar usando PHP 5.2 e fazem uso dos frameworks PRADO (PHP), Prototype JS e Script.Aculo (JavaScript). 
 
-A interaÁ„o entre os aplicativos e feita por meio de um web service, portanto È necess·rio configurar o endereÁo do servidor de web service. Para faze-lo:
+A intera√ß√£o entre os aplicativos e feita por meio de um web service, portanto √© necess√°rio configurar o endere√ßo do servidor de web service. Para faze-lo:
 
 Abrir arquivo application.xml na pasta \app1\protected\ 
-Procurar o nÛ:
+Procurar o n√≥:
 	 <parameters>
 	    <parameter id="ServidorWebService" value="http://ingresso/app2/" />
 	  </parameters>
 
-e substiruir o endereÁo http://ingresso/app2/ pelo endereÁo onde est· rodando a aplicaÁ„o app2. … necess·rio colocar a contra barra(/) no final do endereÁo.
+e substiruir o endere√ßo http://ingresso/app2/ pelo endere√ßo onde est√° rodando a aplica√ß√£o app2. √â necess√°rio colocar a contra barra(/) no final do endere√ßo.
 
-O armazenamento dos dados e feito em um banco de dados SQlite que È criado caso ainda n„o exista no primeiro acesso, devido a simplicidade do que foi solicitado n„o È usado nenhum framework de mapeamento entidade relacional e sim apenas uma classe DAO.
-Ambos os aplicativos foram testados nos navegadores Firefox 5, Chrome 13 e Internet Explorer 9 e est„o de acordo com as recomendaÁıes do WC3.
+O armazenamento dos dados e feito em um banco de dados SQlite que √© criado caso ainda n√£o exista no primeiro acesso, devido a simplicidade do que foi solicitado n√£o √© usado nenhum framework de mapeamento entidade relacional e sim apenas uma classe DAO.
+Ambos os aplicativos foram testados nos navegadores Firefox 5, Chrome 13 e Internet Explorer 9 e est√£o de acordo com as recomenda√ß√µes do WC3.
 
-O acesso aos aplicativos deve ser feito pelas url: http://ingresso/app1 e http://ingresso/app2 substituindo os endereÁos do servidor pelo endereÁo local.
+O acesso aos aplicativos deve ser feito pelas url: http://ingresso/app1 e http://ingresso/app2 substituindo os endere√ßos do servidor pelo endere√ßo local.
