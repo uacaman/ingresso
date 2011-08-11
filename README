@@ -17,3 +17,4 @@ O armazenamento dos dados e feito em um banco de dados SQlite que é criado caso
 Ambos os aplicativos foram testados nos navegadores Firefox 5, Chrome 13 e Internet Explorer 9 e estão de acordo com as recomendações do WC3.
 
 O acesso aos aplicativos deve ser feito pelas url: http://ingresso/app1 e http://ingresso/app2 substituindo os endereços do servidor pelo endereço local.
+  
