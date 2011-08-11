@@ -1,0 +1,15 @@
+﻿<com:TRequiredFieldValidator 
+	ForeColor="red" 
+	style='font-size:12px;' 
+	EnableClientScript="true" 
+	Display="Dynamic" 
+	ControlCssClass="campo_erro"
+	/>
+﻿<com:TEmailAddressValidator 
+	ForeColor="red" 
+	style='font-size:12px;' 
+	EnableClientScript="true" 
+	Display="Dynamic" 
+	ControlCssClass="campo_erro"
+	/>
+

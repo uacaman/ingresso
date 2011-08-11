@@ -1,0 +1,115 @@
+@charset "utf-8";
+/** GERAL ***/
+body 
+{
+	background-color: white; 
+	font-family:Arial;
+	color:#000000;
+	font-size:12px;
+	text-transform:none;	
+	margin: 0px;
+}
+
+.principal 
+{
+	width:900px;
+	margin: 0 auto; 
+}
+
+.esquerda {
+	position: relative;
+	float:left;
+	width:445px;
+}
+
+.direita {
+	position: relative;
+	float:right;
+	width:445px;
+}
+
+.legenda {
+	font-size:10px;
+	padding-top:10px;
+}
+
+.titulo {
+	font-size: 14px;
+	text-align: left;
+	color:#333333;
+	font-family:'Trebuchet MS','Lucida Grande',Verdana,Arial,Sans-Serif;
+	font-weight:bold;
+	height:25px;
+	line-height:25px;
+}
+
+.nova_linha {
+	padding-top: 5px;
+	clear: both;
+}
+
+.linha 
+{
+	border-top: 1px solid #ccc;
+	width:100%;
+	line-height:1px;
+	font-size:1px;
+	height:0px;
+	margin-top: 1px; 
+	margin-bottom: 4px;
+}
+
+.aguarde {
+	background-image: url('imagem/ic_aguarde.gif') !important;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+/** campos de formulário **/
+.campo {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.campo input {
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 4px;	
+}
+
+.campo input:focus {
+	background: #EAEAEA;
+}
+
+.campo_erro {
+	background-image: url(imagem/ic_erro.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	
+}
+
+/** acao **/
+.acao 
+{
+	text-align:right;
+	height:25px;
+	vertical-align:bottom;
+	line-height:25px;
+}
+
+.acao a {
+	color:#2A5DB0;
+	text-decoration:none;
+	font-family:arial,sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+}
+
+.acao a:hover
+{
+	color:#ACA804;
+	text-decoration:none;
+	font-family:arial,sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+}

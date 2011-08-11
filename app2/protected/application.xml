@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application id="APP2" mode="Debug">
+	<paths>
+		<using namespace="System.Data.*" />
+		<using namespace="System.Web.UI.ActiveControls.*" />
+		<using namespace="Application.persistencia.*" />
+	</paths>
+	<modules>
+		<module id="cache" class="System.Caching.TDbCache" />
+	</modules>
+	<services>
+		<service id="page" class="TPageService" DefaultPage="home">
+			<pages Theme="default" StatePersisterClass="System.Web.UI.TCachePageStatePersister"
+				StatePersister.CacheModuleID="cache" StatePersister.CacheTimeout="3600" />
+		</service>
+		<service id="web_service" class="System.Web.Services.TSoapService">
+			<soap id="ws" provider="Application.web_service" />
+		</service>
+	</services>
+</application>

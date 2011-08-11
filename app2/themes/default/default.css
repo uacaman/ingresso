@@ -1,0 +1,84 @@
+@charset "utf-8";
+/** GERAL ***/
+body 
+{
+	background-color: white; 
+	font-family:Arial;
+	color:#000000;
+	font-size:12px;
+	text-transform:none;	
+	margin: 0px;
+}
+
+.principal 
+{
+	width:900px;
+	margin: 0 auto; 
+}
+
+.titulo {
+	font-size: 14px;
+	text-align: left;
+	color:#333333;
+	font-family:'Trebuchet MS','Lucida Grande',Verdana,Arial,Sans-Serif;
+	font-weight:bold;
+	height:25px;
+	line-height:25px;
+}
+
+/** tabela de resultados **/
+.tblResultado {
+	background-color:#FFFFFF;
+	border-spacing: 0px;
+	padding:0px;
+	color:#000000;
+	
+}
+
+.tblResultado tr {
+	height:20px;
+}
+
+.tblResultadoCabecalho td {
+	padding-left:10px;
+	height:22px;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	font:Arial;
+	color:	#000000;
+
+}
+
+.tblResultadoItem {
+	text-align:left;
+	background-color: #EFEFEF;
+	font:Arial;
+	font-size:12px;
+}
+
+.tblResultadoItem td {
+	height:20px;
+	padding-left:10px;
+}
+
+.tblResultadoItem:hover {
+	background-color:#8B8B8B;
+}
+
+
+.tblResultadoItemA {
+	text-align:left;
+	background-color:#CCCCC;
+	font:Arial;
+	font-size:12px;
+}
+	
+
+.tblResultadoItemA td {
+	height:20px;
+	padding-left:10px;
+}
+
+.tblResultadoItemA:hover {
+	background-color:#8B8B8B;
+}
