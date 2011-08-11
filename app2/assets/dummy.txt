@@ -1,0 +1,1 @@
+git não adiciona pasta sem nenhum arquivo, este arquivo existe somente para forçar o git a criar a pasta assets
